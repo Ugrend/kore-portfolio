@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
 <div class="flex mt-10 flex-col items-center">
     <div class="flex flex-grow">
         <a class="m-4 italic" href="/kore-portfolio/portfolio">Portfolio</a>
@@ -26,49 +28,39 @@
 
 </div>
 <div class="flex min-h-screen flex-col items-center ml-auto mr-auto w-2/3" >
-    <div class="flex flex-wrap gap-2">
-        <a href="gallery1.html">
-            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60 ">
-                <img src="public/character_portraits_stylized/thumbnails/bbe58bc7_thumb.png" alt="character portraits stylized" class="absolute inset-0 h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Character Portraits</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">(Stylized)</div>
-            </div>
-        </a>
-        <a href="gallery2.html">
-            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
-                <img src="public/character_portraits_realistic/a675924b.png" alt="character portraits realistic" class="absolute inset-0 h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Character Portraits</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">(Realistic)</div>
-            </div>
-        </a>
+    <div>
+        <h1 class="text-2xl">Final Fantasy XIV</h1>
+        <div class="mb-5">
+            <b>Private Character Illustration Commissions</b><br/>
+            Illustrations and Character portraits made for private consume of characters from the Critically Acclaimed Online Game Final Fantasy XIV
+        </div>
+        <div id="lightgallery" class="flex gap-2 flex-wrap">
+            <a href="public/commissions/1f9b7c4b.jpg">
+                <img class="w-96 h-96"  src="public/commissions/1f9b7c4b.jpg" />
+            </a>
+            <a href="public/commissions/e1113cd7.png">
+                <img class="w-96 h-96"  src="public/commissions/e1113cd7.png" />
+            </a>
+            <a href="public/commissions/5bdaf019.jpg">
+                <img class="w-96 h-96"  src="public/commissions/5bdaf019.jpg" />
+            </a>
+            <a href="public/commissions/1094a03b.jpg">
+                <img class="w-96 h-96"  src="public/commissions/1094a03b.jpg" />
+            </a>
+            <a href="public/commissions/b7a2ab34.jpg">
+                <img class="w-96 h-96"  src="public/commissions/b7a2ab34.jpg" />
+            </a>
+            <a href="public/commissions/46c355f4.jpg">
+                <img class="w-96 h-96"  src="public/commissions/46c355f4.jpg" />
+            </a>
+            <a href="public/commissions/49d05cf2.jpg">
+                <img class="w-96 h-96"  src="public/commissions/49d05cf2.jpg" />
+            </a>
+            <a href="public/commissions/2d6a89d8.jpg">
+                <img class="w-96 h-96"  src="public/commissions/2d6a89d8.jpg" />
+            </a>
 
-        <a href="gallery3.html">
-            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
-                <img src="public/stylized_game_assets/427b019e.jpg" alt="Stylized Game Assets" class="absolute inset-0 h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Stylized Game Assets</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
-            </div>
-        </a>
-        <a href="gallery4.html">
-            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
-                <img src="public/tarot/13708d26.jpg" alt="Tarot Card Illustration" class="absolute inset-0 h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Tarot Card Illustration</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
-            </div>
-        </a>
-        <a href="gallery5.html">
-            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
-                <img src="public/commissions/b7a2ab34.jpg" alt="Commissions" class="absolute inset-0 h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Commissions</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
-            </div>
-        </a>
-
+        </div>
     </div>
     <div class="border-b border-dotted w-1/3 mt-10 mb-10"></div>
     <div class="flex flex-grow gap-2 justify-items-stretch w-1/3"><p>© 2024 Jade Velasquez. All rights reserved.</p>
@@ -87,5 +79,21 @@
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.umd.min.js" integrity="sha512-VOQBxCIgNssJrB8+irZF7L8MvfpAshegc36C3H5QD7vmibXM4uCNaqJIaSNatD2z2ZQQJSx0k+q+m+xsSPp4Xw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js" integrity="sha512-dc8xJSGs0ib9uo0fLT/v4wp2LG7+4OSzc+UpFiIKiv6QP/e4hZH/S8manUCTtO3tNVGzcje8uJjSdL+NH29blQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/mediumZoom/lg-medium-zoom.umd.min.js" integrity="sha512-xwwdYFH/uD+GZ8QhMEhDNBKMne9D43tMNRnLM0bnpYwlIw5QItMyGmiZ9cZ4CoZNfu70orn3KFQpi5OijYsIrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgThumbnail],
+        speed: 500,
+        download: false,
+        share: false
+    });
+</script>
+
 </body>
+
+
+
 </html>

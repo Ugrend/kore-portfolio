@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Test</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,18 +25,50 @@
     <div class="border-b border-dotted w-1/3 mt-10 mb-10"></div>
 
 </div>
-<div class="flex min-h-screen flex-col items-center">
+<div class="flex min-h-screen flex-col items-center ml-auto mr-auto w-2/3" >
+    <div class="flex flex-wrap gap-2">
+        <a href="gallery1.html">
+            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60 ">
+                <img src="public/character_portraits_stylized/thumbnails/bbe58bc7_thumb.png" alt="character portraits stylized" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Character Portraits</h3>
+                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">(Stylized)</div>
+            </div>
+        </a>
+        <a href="gallery2.html">
+            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
+                <img src="public/character_portraits_realistic/a675924b.png" alt="character portraits realistic" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Character Portraits</h3>
+                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">(Realistic)</div>
+            </div>
+        </a>
 
-    <div class="grid grid-cols-6 gap-4 max-w-6xl">
-        <img alt="kore" loading="lazy" width="444" height="775" class="col-span-2" src="public/bg.png">
-        <div class="col-span-4"><h1 class="text-2xl font-bold mb-10">Jade Velasquez</h1>
-            <p>
-                <b>2D Concept Artist</b><br/>
+        <a href="gallery3.html">
+            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
+                <img src="public/stylized_game_assets/427b019e.jpg" alt="Stylized Game Assets" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Stylized Game Assets</h3>
+                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
+            </div>
+        </a>
+        <a href="gallery4.html">
+            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
+                <img src="public/tarot/13708d26.jpg" alt="Tarot Card Illustration" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Tarot Card Illustration</h3>
+                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
+            </div>
+        </a>
+        <a href="gallery5.html">
+            <div class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 h-96 w-60  ">
+                <img src="public/commissions/b7a2ab34.jpg" alt="Commissions" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                <h3 class="z-10 mt-3 text-2xl font-bold text-white">Commissions</h3>
+                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"></div>
+            </div>
+        </a>
 
-                Experienced Creative with a demonstrated history of working on
-                2D Asset Creation and pipeline management.
-            </p>
-        </div>
     </div>
     <div class="border-b border-dotted w-1/3 mt-10 mb-10"></div>
     <div class="flex flex-grow gap-2 justify-items-stretch w-1/3"><p>© 2024 Jade Velasquez. All rights reserved.</p>
